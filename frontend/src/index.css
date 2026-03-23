@@ -1,0 +1,22 @@
+body {
+  background: #f4f6f9;
+}
+
+.board-wrapper {
+  padding: 20px;
+}
+
+.column-box {
+  background: #e9ecef;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 400px;
+}
+
+.task-card {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
