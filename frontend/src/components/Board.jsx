@@ -96,7 +96,6 @@ const Board = () => {
     []
   );
 
-  // 🔥 SEARCH + FILTER
   const filteredTasks = useMemo(() => {
     return taskList.filter((t) => {
       const matchSearch = t.title
@@ -118,14 +117,12 @@ const Board = () => {
     <div className="container board-wrapper">
       <AddTask />
 
-      {/* 🔍 SEARCH */}
       <input
         className="form-control mb-3"
         placeholder="Search tasks..."
         onChange={(e) => debouncedSearch(e.target.value)}
       />
 
-      {/* 🔽 FILTER */}
       <select
         className="form-select mb-3"
         value={statusFilter}
