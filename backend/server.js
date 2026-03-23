@@ -22,8 +22,7 @@ mongoose.connect(process.env.MONGO_URI , {
 }).then(() => console.log("MongoDB connected"))
   .catch(err => console.log(err));
 
-app.use("/tasks", taskRoutes(io));
-
+app.use("/api/tasks", taskRoutes(io));
 io.on("connection", (socket) => {
   console.log("User connected");
 });
