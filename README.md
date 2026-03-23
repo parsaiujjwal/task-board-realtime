@@ -99,12 +99,6 @@ npm run dev
 * taskUpdated
 * taskDeleted
 
-## Future Improvements
-
-* Authentication (login/signup)
-* Multi-user support
-* Task comments and attachments
-* Analytics dashboard
 
 ## Author
 
